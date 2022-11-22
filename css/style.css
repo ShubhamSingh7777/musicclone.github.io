@@ -1,0 +1,173 @@
+   /* Global Styling */
+   html,
+   body {
+       margin: 0px;
+       padding: 0px;
+   }
+
+   nav {
+       background-color: #34495e;
+       height: 80px;
+       position: fixed;
+       width: 100vw;
+       top: 0;
+       z-index: 999;
+   }
+
+   #logo {
+       height: 80px;
+       margin-left: 20px;
+   }
+
+   .wrapper {
+       padding: 0px 50px;
+       padding-bottom: 100px;
+       max-width: 1200px;
+       text-align: center;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 80px;
+   }
+
+   .right {
+       float: right !important;
+   }
+
+   /* Image zoom on hover + Overlay colour */
+   .parent {
+       width: 45%;
+       margin: 20px;
+       height: 300px;
+       border: 1px solid blue;
+       overflow: hidden;
+       position: relative;
+       float: left;
+       display: inline-block;
+       cursor: pointer;
+   }
+
+   .child {
+       height: 100%;
+       width: 100%;
+       background-size: cover;
+       background-repeat: no-repeat;
+       -webkit-transition: all .5s;
+       -moz-transition: all .5s;
+       -o-transition: all .5s;
+       transition: all .5s;
+   }
+
+   /* Several different images */
+   .bg-one {
+       background-image: url(https://lyricsdose.store/wp-content/uploads/2021/07/1627005565_maxresdefault.jpg);
+   }
+
+   .bg-two {
+       background-image: url(https://www.ilyricshub.com/wp-content/uploads/2017/01/Gucci-Lyrics.png);
+   }
+
+   .bg-three {
+       background-image: url(https://i1.sndcdn.com/artworks-000139865075-8199dx-t500x500.jpg);
+   }
+
+   .bg-four {
+       background-image: url(https://pianobajao.com/wp-content/uploads/2020/04/Pal-arijit-singh-piano-notes.jpg);
+   }
+
+   .bg-five {
+       background-image: url(https://i1.wp.com/www.99ringtones.com/wp-content/uploads/2020/04/yaar-hasda-song-ringtone-by-guri.jpg?fit=1280%2C720&ssl=1);
+   }
+
+   .bg-six {
+       background-image: url(https://i.ytimg.com/vi/gs1S74JPBPI/maxresdefault.jpg);
+   }
+
+
+   a {
+       display: none;
+       font-size: 35px;
+       color: #ffffff !important;
+       font-family: sans-serif;
+       text-align: center;
+       margin: auto;
+       position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       height: 50px;
+       cursor: pointer;
+       /*text-decoration: none;*/
+   }
+
+   .parent:hover .child,
+   .parent:focus .child {
+       -ms-transform: scale(1.2);
+       -moz-transform: scale(1.2);
+       -webkit-transform: scale(1.2);
+       -o-transform: scale(1.2);
+       transform: scale(1.2);
+   }
+
+   .parent:hover .child:before,
+   .parent:focus .child:before {
+       display: block;
+   }
+
+   .parent:hover a,
+   .parent:focus a {
+       display: block;
+   }
+
+   .child:before {
+       content: "";
+       display: none;
+       height: 100%;
+       width: 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+       background-color: rgba(52, 73, 94, 0.75);
+   }
+
+   /* Media Queries */
+   @media screen and (max-width: 960px) {
+       .parent {
+           width: 100%;
+           margin: 20px 0px
+       }
+
+       .wrapper {
+           padding: 30px 30px;
+       }
+   }
+
+   body {
+       background-color: white;
+   }
+
+   h1 {
+       color: black;
+       font-size:70px;
+       text-align: center;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+
+   .hello {
+       display: none
+   }
+
+   .container {
+       margin-top: 50px;
+   }
+
+   .box10 {
+       width: 95%;
+       margin-left: 40px;
+   }
+
+   .box2 {
+       margin: 20px;
+       margin-left: 220px;
+   }

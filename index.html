@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="./js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Document</title>
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <div class="container">
+        <div class="row">
+            <h1>spotiy music for yours</h1>
+            <div class="wrapper">
+                <div class="parent" onclick="shubham1()">
+                    <div class="child bg-one" id="one">
+                        <a href="#"><i class="fa-solid fa-circle-play fa-2x" id="pa"></i></a>
+                    </div>
+                </div>
+
+                <div class="parent right" onclick="shubham2()" id="two">
+                    <div class="child bg-two">
+                        <a href="#"><i class="fa-solid fa-circle-play fa-2x" id="pa1"></i></a>
+                    </div>
+                </div>
+
+                <div class="parent" onclick="shubham3()">
+                    <div class="child bg-three" id="three">
+                        <a href="#"><i class="fa-solid fa-circle-play fa-2x" id="pa2"></i></a>
+                    </div>
+                </div>
+
+                <div class="parent right" onclick="shubham4()">
+                    <div class="child bg-four" id="four">
+                        <a href="#"><i class="fa-solid fa-circle-play fa-2x" id="pa3"></i></a>
+                    </div>
+                </div>
+
+                <div class="parent" onclick="shubham5()">
+                    <div class="child bg-five" id="five">
+                        <a href="#"><i class="fa-solid fa-circle-play fa-2x" id="pa4"></i></a>
+                    </div>
+                </div>
+
+                <div class="parent right" onclick="shubham6()">
+                    <div class="child bg-six" id="six">
+                        <a href="#"><i class="fa-solid fa-circle-play fa-2x" id="pa5"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row box1">
+            <div class="box10"><input type="range" value="0" onchange="vikas()" name="rang" id="progressBar" min="0" max="100"></div>
+        </div>
+        <div class="row box2">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <i class="fa-solid fa-backward-step fa-2x"></i>
+                <i class="fa-solid fa-circle-play fa-2x" onclick="pause()"  id="masterPlay"></i>
+                <i class="fa-solid fa-forward-step fa-2x"></i>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  
+</body>
+      
+</html>
